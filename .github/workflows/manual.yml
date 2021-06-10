@@ -36,6 +36,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+    - name: Checkout the the master repository man
+      uses: actions/checkout@master
     # Runs a single command using the runners shell
     - name: Make the binaries yo
       run: echo "Hello ${{ github.event.inputs.name }}" && make
