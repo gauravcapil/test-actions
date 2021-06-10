@@ -23,7 +23,7 @@ var products = []Product{
 		ID:    1,
 		Name:  "Chicha Morada",
 		Info:  "Chicha morada is a beverage originated in the Andean regions of Perú but is actually consumed at a national level (wiki)",
-		Price: 7.99,
+		Price: 7.90,
 	},
 	{
 		ID:    2,
