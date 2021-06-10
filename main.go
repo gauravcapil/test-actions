@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"math/rand"
-	"net/htt"
+	"net/http"
 	"time"
 
 	"github.com/graphql-go/graphql"
