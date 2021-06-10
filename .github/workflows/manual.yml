@@ -15,6 +15,17 @@ on:
         default: 'test my actions stuff learned'
         # Input has to be provided for the workflow to run
         required: true
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  # Also trigger on page_build, as well as release created events
+  page_build:
+  release:
+    types: # This configuration does not affect the page_build event above
+      - created
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
